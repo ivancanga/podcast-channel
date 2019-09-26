@@ -323,4 +323,27 @@ footer ul li a{
     margin-top: auto;
     margin-right: 100px;
   }
+    
+  .blue{
+  background-color: #0000FF;
+  height: 60px;
+  clip-path: polygon(
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 calc(100%)
+  );
+}
+
+  .bluei{
+  background-color: #0000A3;
+  height: 60px;
+  clip-path: polygon(
+    0 0,
+    100% 0%,
+    0 100%,
+    0 calc(100%)
+  );
+  margin-top: -20px;
+ }
 }
