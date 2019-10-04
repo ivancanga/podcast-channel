@@ -205,7 +205,6 @@ img.abs{
 .invitadxs{
   display: flex;
   flex-direction: column;
-  margin-top: -20px;
 }
 
 .invitadxs img{
@@ -306,11 +305,15 @@ footer ul li a{
     justify-content: center;
     flex-direction: row;
     padding: 0 150px;
+    margin-bottom: 40px;
   }
   .nosotros img{
     position: relative;
     width: auto;
     height: 600px;
+  }
+  .nosotros-text{
+    margin-top: -100px;
   }
   .invitadxs{
     flex-flow: row wrap;
