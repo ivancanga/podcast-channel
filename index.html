@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <div class="nav">
             <a href="#"><img class="logo" src="images/logo.svg" alt="PodChan"></a>
             <input id='toggle' type='checkbox'>
@@ -28,9 +28,9 @@
         </div>
     </header>
 
-    <section class="main">
-        <h1 class="black">Hello <span class="line-thr">world</span> pale blue dot.</h1>
-        <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+    <section class="main container">
+        <h1 class="black">Hello <span class="line-thr">world</span> pale blue dot<span class="dot">.</span></h1>
+        <p class="parrafo">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
         <form>
             <button formaction="#episodios">Conocé más</button>
         </form>
@@ -39,8 +39,8 @@
     <div class="blue"></div>
 
     <section class="episodios" id="episodios">
-        <h2>Episodios</h2>
-        <div class="podcasts">
+        <h2 class="container">Episodios</h2>
+        <div class="podcasts container">
             <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%" height="232"
                 frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232"
@@ -54,7 +54,7 @@
 
     <div class="bluei"></div>
 
-    <section class="nosotros" id="nosotros">
+    <section class="nosotros container" id="nosotros">
         <img class="abs" src="images/phone.png" alt="Women in coding">
         <div>
             <h2 class="black">De dónde venimos</h2>
@@ -66,8 +66,8 @@
     </section>
 
     <section class="entrevistas" id="entrevistas">
-        <h2 class="black">Invitadxs estelares</h2>
-        <div class="invitadxs">
+        <h2 class="black container">Invitadxs estelares</h2>
+        <div class="invitadxs container">
             <img src="images/grace-hopper.png" alt="Grace Hopper">
             <img src="images/Katie-Bouman.png" alt="Katie-Bouman">
             <img src="images/Margaret_Hamilton.png" alt="Margaret Hamilton">
@@ -78,8 +78,8 @@
     </section>
 
     <section class="topicos" id="topicos">
-        <h2 class="black">Algunos de nuestros temas</h2>
-        <div class="topics">
+        <h2 class="black container">Algunos de nuestros temas</h2>
+        <div class="topics container">
             <div><img src="images/icon1.svg" alt="Trabajo remoto">
                 <h3>Trabajo remoto</h3>
             </div>
@@ -107,7 +107,7 @@
     </div>
 
     <footer>
-        <div class="footer center">
+        <div class="footer container center">
             <p class="footer-text">© 2019— Hello blue pale dot</p>
             <ul>
                 <li><a href="https://spotify.com" target="_blank" class="fa fa-spotify"></a></li>
