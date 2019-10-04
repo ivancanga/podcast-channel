@@ -163,7 +163,7 @@ h2{
   font-weight: lighter;
   font-size: 36px;
   letter-spacing: 0;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 h3{
@@ -227,7 +227,6 @@ img.abs{
 }
 
 .footer-text{
-  text-align: center;
   color: #060A24;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 16px;
@@ -249,8 +248,15 @@ footer ul li a{
 }
 
 @media screen and (min-width: 768px) {
-  h1,h2,p,button{
+  /* h1,h2,button{
     margin: auto 120px;
+  } */
+  p{
+    margin: auto 0;
+  }
+
+  h2.padding,.main{
+    padding: 0 0 20px 120px;
   }
 
   h2{
@@ -286,7 +292,6 @@ footer ul li a{
   }
   iframe{
     max-width: 50%!important;
-
   }
   iframe:nth-child(odd) {
     padding-right: 0.60rem;
@@ -315,11 +320,18 @@ footer ul li a{
     max-width: 33.3%;
   }
   .topics{
+    width: 70%;
     flex-flow: row wrap;
     justify-content: space-between;
   }
   .topics div{
     max-width: 25%!important;
+  }
+  .novedades{
+    height: 300px;
+  }
+  .novedades div{
+    margin-top: 50px;
   }
   .footer{
     display: flex;
@@ -327,13 +339,11 @@ footer ul li a{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: auto;
-    /* margin: 15px; */
   }
   footer ul{
     list-style: none;
     display: inline-flex;
     font-size: 20px;
     margin-top: auto;
-    margin-right: 100px;
   }
 }
