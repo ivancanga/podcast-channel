@@ -26,7 +26,7 @@ body{
 .logo,.iconos{
     padding: 10px 16px;
     height: 100%;
-    font-size: 3vh;
+    font-size: 1.5rem;
     vertical-align: middle;
 }
 
@@ -77,7 +77,7 @@ body{
 
 p{
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .line-thr{
@@ -87,7 +87,6 @@ p{
 
 div.center{
   text-align: center;
-  /* display: block; */
 }
 
 button{
@@ -95,7 +94,7 @@ button{
   color: #060A24;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
   width: 100%;
   height: 48px;
@@ -151,7 +150,8 @@ section{
 
 h1{
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 36px;
+  font-size: 2.5rem;
+  font-weight: 100;
   margin-top: 13px;
   letter-spacing: 0;
   color: #ffffff;
@@ -161,14 +161,14 @@ h2{
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
   font-weight: lighter;
-  font-size: 36px;
+  font-size: 2.2rem;
   letter-spacing: 0;
   padding-bottom: 16px;
 }
 
 h3{
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #060A24;
   text-align: center;
   padding-top: 10px;
@@ -210,14 +210,15 @@ img.abs{
 .invitadxs img{
   width: 100%;
 }
-.topics div{
-  padding: 20px;
-  text-align: center;
-}
 
 .topics{
   display: flex;
   flex-direction: column;
+}
+
+.topic{
+  padding: 20px;
+  text-align: center;
 }
 
 .footer{
@@ -228,13 +229,13 @@ img.abs{
 .footer-text{
   color: #060A24;
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 footer ul{
   list-style: none;
   display: inline-flex;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 footer ul li{
@@ -247,9 +248,9 @@ footer ul li a{
 }
 
 @media screen and (min-width: 768px) {
-  /* h1,h2,button{
-    margin: auto 120px;
-  } */
+  h1{
+    font-size: 3.5rem;
+  }
   p{
     margin: auto 0;
   }
@@ -262,7 +263,7 @@ footer ul li a{
     margin-bottom: 20px;
   }
   .parrafo{
-    width: 50%;
+    width: 60%;
   }
   .iconos{
     display: none;
@@ -327,8 +328,8 @@ footer ul li a{
     flex-flow: row wrap;
     justify-content: space-between;
   }
-  .topics div{
-    max-width: 25%!important;
+  .topic{
+    max-width: 25%;
   }
   .novedades{
     height: 300px;
