@@ -370,13 +370,10 @@ footer ul li a{
   }
 }
 
-/* a partir de 950px se muestra el div de nosotros en columna */
+/* a partir de 950px se muestra el div de nosotros en una fila en porcentajes de acuerdo al ancho */
 @media screen and (min-width: 950px) {
 
   .nosotros{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 0 120px;
     margin-bottom: 90px;
   }
