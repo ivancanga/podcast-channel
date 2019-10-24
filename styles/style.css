@@ -266,29 +266,7 @@ footer ul li a{
   color: #060A24;
 }
 
-/* Cuando está en versión entre desktop y mobile */
-@media screen and (min-width: 950px) {
-
-  .nosotros{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    padding: 0 150px;
-    margin-bottom: 40px;
-  }
-  .nosotros img{
-    position: relative;
-    width: 50%;
-    height: auto;
-  }
-  .nosotros-text{
-    margin-top: -100px;
-  }
-}
-
-/* Cuando está en version desktop */
+/* Desktop view */
 @media screen and (min-width: 768px) {
   h1{
     font-size: 3.5rem;
@@ -341,9 +319,20 @@ footer ul li a{
   iframe:nth-child(even) {
     padding-left: 0.60rem;
   }
+  .nosotros{
+    display: flex;
+    flex-flow: row wrap;
+  }
   .nosotros img{
     position: relative;
     width: 40%;
+  }
+  .nosotros-text h2{
+    margin-left: 100px;
+    margin-bottom: -5px;
+  }
+  .nosotros-text p{
+    padding: 5px 40px;
   }
   .invitadxs{
     flex-flow: row wrap;
@@ -378,5 +367,32 @@ footer ul li a{
     display: inline-flex;
     font-size: 20px;
     margin-top: auto;
+  }
+}
+
+/* a partir de 950px se muestra el div de nosotros en columna */
+@media screen and (min-width: 950px) {
+
+  .nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 120px;
+    margin-bottom: 90px;
+  }
+  .nosotros img{
+    top: 30px;
+    width: 40%;
+    height: auto;
+  }
+  .nosotros-text{
+    padding-left: 30px;
+    width: 50%;
+  }
+  .nosotros-text h2{
+    margin-left: 0px;
+  }
+  .nosotros-text p{
+    padding: 0px;
   }
 }
