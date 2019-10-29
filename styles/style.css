@@ -311,7 +311,7 @@ footer ul li a{
     padding-left: 25px;
   }
   iframe{
-    max-width: 50%!important;
+    max-width: 50%;
   }
   iframe:nth-child(odd) {
     padding-right: 0.60rem;
